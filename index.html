@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terroir de Saint Emilion</title>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #dfddd7;
+      color: #111;
+    }
+    header {flex-direction: column;
+      gap: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+    .logo {
+      font-size: 2em;
+      font-weight: bold;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 40px;
+    }
+    .text {
+      flex: 1;
+      min-width: 300px;
+    }
+    .text h1 {
+      font-size: 4em;
+      margin-bottom: 20px;
+      font-family: 'Mukta', sans-serif;
+    }
+    .btn {
+      display: inline-block;
+      padding: 15px 25px;
+      border: 2px solid #101c0b;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-decoration: none;
+      color: #101c0b;
+    }
+    .image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+    .image img {
+      max-width: 100%;
+      height: auto;
+    }
+    .section-plus {
+      padding: 40px;
+      text-align: center;
+    }
+    .section-plus h2 {
+      font-size: 3em;
+      margin-bottom: 40px;
+    }
+    .card-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .card {
+      background-color: #dfddd7;
+      width: 300px;
+      text-align: left;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+    .card-title {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 15px 10px;
+    }
+    .section-plus .btn {
+      margin-top: 40px;
+    }
+    .bordeaux-section {
+      background-color: #5c1a1b;
+      color: white;
+      padding: 60px 40px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .bordeaux-text {
+      flex: 1;
+      min-width: 300px;
+      padding: 20px;
+    }
+    .bordeaux-text h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    .bordeaux-text p {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+    .bordeaux-image {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+    .bordeaux-image img {
+      max-width: 100%;
+      height: auto;
+    }
+    .detail-section {
+      background-color: #5c1a1b;
+      color: white;
+      padding: 60px 40px;
+    }
+    .detail-section h2 {
+      font-size: 3em;
+      margin-bottom: 30px;
+    }
+    .detail-columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .detail-col {
+      flex: 1;
+      min-width: 250px;
+    }
+    .detail-col h3 {
+      font-size: 1.8em;
+      margin-bottom: 10px;
+    }
+    .detail-col p {
+      font-size: 1em;
+    }
+    .cepages-section {
+      padding: 60px 40px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+    }
+    .cepages-text {
+      flex: 1;
+      min-width: 300px;
+      font-size: 1.3em;
+    }
+    .cepages-gallery {
+      flex: 1;
+      min-width: 300px;
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .cepages-gallery img {
+      width: 200px;
+      height: auto;
+    }
+    body > section.newsletter > div:nth-child(3) > ul > li {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Terroir de Saint Emilion</div>
+    <nav>
+      <a href="#">BOUTIQUE</a>
+      <a href="#">JOURNAL</a>
+      <a href="#">À PROPOS</a>
+      <a href="#">MENTIONS LÉGALES</a>
+      <a href="#">CONTACT</a>
+      <a href="#">🛒 0</a>
+    </nav>
+  </header>
+
+  <section class="main">
+    <div class="text">
+      <h1>Du vin pour tous les palais</h1>
+      <a class="btn" href="#">Acheter maintenant</a>
+    </div>
+    <div class="image">
+      <img src="images/Capture d’écran 2025-06-10 à 13.56.05.png" alt="Vin Terroir de Saint Emilion">
+    </div>
+  </section>
+
+  <section class="section-plus">
+    <h2>En savoir plus</h2>
+    <div class="card-grid">
+      <div class="card">
+        <img src="images/1ae562d9e56005986ee5acb3512378472.jpg" alt="Les cépages">
+        <div class="card-title">Les cépages</div>
+      </div>
+      <div class="card">
+        <img src="images/2eb16ad8655fb4ccb12f49a9428e834a1.jpg" alt="Les grands crus classés">
+        <div class="card-title">Les grands crus classés</div>
+      </div>
+      <div class="card">
+        <img src="images/34d45c1e1710e8086cd45e03b13e62922.jpg" alt="Les Accords Mets et Vins">
+        <div class="card-title">Les Accords Mets et Vins</div>
+      </div>
+    </div>
+    <a class="btn" href="#">venez découvrir</a>
+  </section>
+
+  <section class="bordeaux-section">
+    <div class="bordeaux-image">
+      <img src="images/455683a796aa465cb24f89024fcd8dae.jpg" alt="Grands Crus Classés">
+    </div>
+    <div class="bordeaux-text">
+      <h1>Les Grands Crus Classés</h1>
+      <p>Plus de 85 crus classés AOC Saint-Emilion</p>
+      <p><a href="#" style="color:white; text-decoration: underline;">En savoir plus</a></p>
+    </div>
+  </section>
+
+  <section class="detail-section">
+    <h2>En détail</h2>
+    <div class="detail-columns">
+      <div class="detail-col">
+        <h3>L'histoire de ce classement</h3>
+        <p>À la demande du Syndicat de défense de l’appellation Saint-Émilion, l’Institut national des appellations d’origine (INAO) procède dès 1955 au classement des crus de cette appellation.</p>
+      </div>
+      <div class="detail-col">
+        <h3>Signe Particulier</h3>
+        <p>Le décret précise que l’INAO doit procéder tous les dix ans à la révision de ce classement. Depuis 1955, 7 classements ont ainsi été effectués.</p>
+      </div>
+      <div class="detail-col">
+        <h3>Les critères</h3>
+        <p>Le septième et dernier classement, publié en septembre 2022, résulte d’une nouvelle procédure, entièrement placée sous l’autorité de l’INAO, avec le concours des ministères de l’Agriculture et de la Consommation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cepages-section">
+    <div class="cepages-text">
+      <p>Les cépages dominants qui composent le vin de Saint-Émilion sont le merlot et le cabernet franc. Cependant, certains producteurs utilisent également le Malbec, le Cabernet Sauvignon et le Petit Verdot.</p>
+      <a class="btn" href="#">tous les cépages</a>
+    </div>
+    <div class="cepages-gallery">
+      <img src="images/cepage2e65932417600693bde33882907e8c050.jpg" alt="cépage 1">
+      <img src="images/cepage3880074577bd48c22562da90d04dff869.jpg" alt="cépage 2">
+    </div>
+  </section>
+  
+  <div style="width: 90%; max-width: 800px; height: 1px; background-color: #444; margin: 40px auto;"></div>
+  
+  <section class="newsletter" style="background-color: #dfddd7; padding: 60px 40px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
+    <div style="flex: 1; min-width: 280px;">
+      <img src="images/vinf9bb5bc213608399480e61c40c2a5491.jpg" alt="Instagram promo" style="width: 100%; max-width: 320px; height: auto;">
+      <p>Suivez-nous sur <a href="#" style="color: #101c0b; text-decoration: underline;">Instagram</a></p>
+    </div>
+    <div style="flex: 2; min-width: 280px; padding: 20px;">
+      <p style="font-size: 1.3em; margin-bottom: 20px;">Pour en savoir plus n'hésitez pas à aller vous informer sur notre site internet, et nos vidéos Youtube</p>
+      <a class="btn" href="#">Découvre ici</a>
+    </div>
+    <div style="flex: 1; min-width: 200px; padding: 20px;">
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="#" style="color: #101c0b; text-decoration: underline;">Boutique</a></li>
+        <li><a href="#" style="color: #101c0b; text-decoration: underline;">Journal</a></li>
+        <li><a href="#" style="color: #101c0b; text-decoration: underline;">À propos</a></li>
+        <li><a href="#" style="color: #101c0b; text-decoration: underline;">Contact</a></li>
+        <li><a href="#" style="color: #101c0b; text-decoration: underline;">Livraison et retours</a></li>
+        <li><a href="#" style="color: #101c0b; text-decoration: underline;">Revendeurs</a></li>
+        <li><a href="#" style="color: #101c0b; text-decoration: underline;">Conçu avec Squarespace</a></li>
+      </ul>
+    </div>
+  </section>
+  </body>
+  </html>
+  
